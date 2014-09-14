@@ -3,7 +3,7 @@
 #
 ################################################
 # Simple Flask App generator
-# by Patrik Hudak <pato.hudak@gmail.com> in 2014
+# by Patrik Hudak in 2014
 
 import functools
 import inspect
