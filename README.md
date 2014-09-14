@@ -16,3 +16,4 @@ You can add your own actions very easily. Create function with your tasks and de
 ###TODO
 
  - setup.py
+ - termcolor

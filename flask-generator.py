@@ -28,7 +28,7 @@ def touch(filename, flush=''):
   if filename.endswith(".py"):
     flush  = "#!/usr/bin/env python\n"
     flush += "# -*- coding: utf-8 -*-\n"
-  elif filename.endswith(".py"):
+  elif filename.endswith(".sh"):
     flush = "#!/bin/bash\n"
   open(os.path.join(BASEDIR, filename), 'w').write(flush)
 
